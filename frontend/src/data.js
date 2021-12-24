@@ -6,7 +6,7 @@ const data = {
             category: 'Hot drinks',
             image: '/images/picture1.jpg',
             price: '2 euro',
-            rating: 3,
+            rating: 4.5,
             numReviews: 10,
             description: 'batch brew'
         },
@@ -16,7 +16,7 @@ const data = {
             category: 'Hot drinks',
             image: '/images/picture1.jpg',
             price: '2 euro',
-            rating: 3,
+            rating: 5,
             numReviews: 10,
             description: 'batch brew'
         },
@@ -36,7 +36,7 @@ const data = {
             category: 'Hot drinks',
             image: './images/picture1.jpg',
             price: '2 euro',
-            rating: 3,
+            rating: 5,
             numReviews: 10,
             description: 'batch brew'
         },
@@ -46,13 +46,13 @@ const data = {
             category: 'Hot drinks',
             image: './images/picture1.jpg',
             price: '2 euro',
-            rating: 3,
+            rating: 4,
             numReviews: 10,
             description: 'batch brew'
         },
         {
             _id: '6',
-            name: 'bruh',
+            name: 'Batch brew',
             category: 'Hot drinks',
             image: './images/picture1.jpg',
             price: '2 euro',

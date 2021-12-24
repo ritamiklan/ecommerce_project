@@ -15,7 +15,10 @@ export default function Product(props) {
                             <a href={`/product/${product._id}`}>
                                 <h2>{product.name}</h2>
                             </a>
-                        < Rating />
+                        < Rating 
+                            rating = {product.rating}
+                            numReviews = {product.numReviews} 
+                        />
                 
                         <div className="price">
                           {product.price}
