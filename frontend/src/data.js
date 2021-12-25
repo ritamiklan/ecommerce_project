@@ -6,6 +6,7 @@ const data = {
             category: 'Hot drinks',
             image: '/images/picture1.jpg',
             price: '2 euro',
+            countInStock: 100,
             rating: 4.5,
             numReviews: 10,
             description: 'batch brew'
@@ -16,6 +17,7 @@ const data = {
             category: 'Hot drinks',
             image: '/images/picture1.jpg',
             price: '2 euro',
+            countInStock: 100,
             rating: 5,
             numReviews: 10,
             description: 'batch brew'
@@ -26,6 +28,7 @@ const data = {
             category: 'Hot drinks',
             image: '/images/picture1.jpg',
             price: '2 euro',
+            countInStock: 100,
             rating: 3,
             numReviews: 10,
             description: 'batch brew'
@@ -34,8 +37,9 @@ const data = {
             _id: '4',
             name: 'Chemex',
             category: 'Hot drinks',
-            image: './images/picture1.jpg',
+            image: '/images/picture1.jpg',
             price: '2 euro',
+            countInStock: 100,
             rating: 5,
             numReviews: 10,
             description: 'batch brew'
@@ -44,8 +48,9 @@ const data = {
             _id: '5',
             name: 'americano',
             category: 'Hot drinks',
-            image: './images/picture1.jpg',
+            image: '/images/picture1.jpg',
             price: '2 euro',
+            countInStock: 100,
             rating: 4,
             numReviews: 10,
             description: 'batch brew'
@@ -54,8 +59,9 @@ const data = {
             _id: '6',
             name: 'Batch brew',
             category: 'Hot drinks',
-            image: './images/picture1.jpg',
+            image: '/images/picture1.jpg',
             price: '2 euro',
+            countInStock: 0,
             rating: 3,
             numReviews: 10,
             description: 'batch brew'
