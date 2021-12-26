@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce_project",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This is a project I decided to do as an independent study project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritamiklan/ecommerce_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritamiklan/ecommerce_project/issues"
+  },
+  "homepage": "https://github.com/ritamiklan/ecommerce_project#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
