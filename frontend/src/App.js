@@ -21,7 +21,7 @@ function App() {
         <main>
           <Routes>
             <Route exact path="/" element={<HomeScreen />} />
-            <Route path="/product/:id" element={<ProductScreen />} />
+            <Route path="product/:id" element={<ProductScreen />} />
           </Routes>
         </main>
         <footer className="row center">

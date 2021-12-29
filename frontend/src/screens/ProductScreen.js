@@ -1,16 +1,31 @@
-import React from "react";
-import data from "../data";
+import React, { useEffect } from "react";
 import Rating from "../components/Rating";
-import { useParams, Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import LoadingBox from "../components/LoadingBox";
+import MessageBox from "../components/MessageBox";
+import { detailsProduct } from "../actions/productActions";
 
 export default function ProductScreen(props) {
+ 
   const { id } = useParams();
-  const product = data.products.find((x) => x._id === id);
-  if (!product) {
-    return <div>Product not found</div>;
-  }
+  const dispatch = useDispatch();
+  const productId =  id;
+  const productDetails = useSelector((state) => state.productDetails);
+  const { loading, error, product } = productDetails;
+ 
+useEffect(() => {
+  dispatch(detailsProduct(productId));
+}, [dispatch, productId]);
+
   return (
     <div>
+      {loading ? (
+        <LoadingBox />
+      ) : error ? (
+        <MessageBox variant="danger">{error}</MessageBox>
+      ) : (
+        <div>
         <Link to="/">Back to results</Link>
       <div className="row top">
         <div className="col-2">
@@ -60,5 +75,8 @@ export default function ProductScreen(props) {
         </div>
       </div>
     </div>
+      )}
+    </div>
+    
   );
 }
