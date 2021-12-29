@@ -2,9 +2,9 @@ const data = {
     products: [
         {
             _id: '1',
-            name: 'regular coffee',
+            name: 'Regular coffee',
             category: 'Hot drinks',
-            image: '/images/picture1.jpg',
+            image: '/images/coffee.jpg',
             price: '2 euro',
             countInStock: 100,
             rating: 4.5,
@@ -13,9 +13,9 @@ const data = {
         },
         {
             _id: '2',
-            name: 'coffee with oat milk',
+            name: 'Coffee with oat milk',
             category: 'Hot drinks',
-            image: '/images/picture1.jpg',
+            image: '/images/coffee.jpg',
             price: '2 euro',
             countInStock: 100,
             rating: 5,
@@ -24,20 +24,20 @@ const data = {
         },
         {
             _id: '3',
-            name: 'V60',
+            name: 'Cappuccino',
             category: 'Hot drinks',
-            image: '/images/picture1.jpg',
+            image: '/images/cappuccino.jpg',
             price: '2 euro',
             countInStock: 100,
-            rating: 3,
+            rating: 5,
             numReviews: 10,
             description: 'batch brew'
         },
         {
             _id: '4',
-            name: 'Chemex',
+            name: 'Latte',
             category: 'Hot drinks',
-            image: '/images/picture1.jpg',
+            image: '/images/latte.jpg',
             price: '2 euro',
             countInStock: 100,
             rating: 5,
@@ -46,26 +46,37 @@ const data = {
         },
         {
             _id: '5',
-            name: 'americano',
+            name: 'V60',
             category: 'Hot drinks',
-            image: '/images/picture1.jpg',
+            image: '/images/v60.jpg',
+            price: '2 euro',
+            countInStock: 0,
+            rating: 3,
+            numReviews: 10,
+            description: 'batch brew'
+        },
+        {
+            _id: '6',
+            name: 'Chemex',
+            category: 'Hot drinks',
+            image: '/images/chemex.jpg',
+            price: '2 euro',
+            countInStock: 100,
+            rating: 5,
+            numReviews: 10,
+            description: 'batch brew'
+        },
+        {
+            _id: '7',
+            name: 'Americano',
+            category: 'Hot drinks',
+            image: '/images/americano.jpg',
             price: '2 euro',
             countInStock: 100,
             rating: 4,
             numReviews: 10,
             description: 'batch brew'
         },
-        {
-            _id: '6',
-            name: 'Batch brew',
-            category: 'Hot drinks',
-            image: '/images/picture1.jpg',
-            price: '2 euro',
-            countInStock: 0,
-            rating: 3,
-            numReviews: 10,
-            description: 'batch brew'
-        }
     ]
 }
 

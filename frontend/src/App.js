@@ -24,7 +24,8 @@ function App() {
             <Route path="/product/:id" element={<ProductScreen />} />
           </Routes>
         </main>
-        <footer className="row center">All rights reserved</footer>
+        <footer className="row center">
+          <p>Photos by <a href="https://unsplash.com/@emmafaithcreative">Emma Smith</a>,  <a href="https://unsplash.com/@jarson">Jarek Ceborski</a>, <a href="https://unsplash.com/@gtk1x">Gerson Cifuentes</a>, and <a href="https://unsplash.com/@conorsexton">Conor Sexton</a> on Unsplash</p></footer>
       </div>
     </BrowserRouter>
   );
